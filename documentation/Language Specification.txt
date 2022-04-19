@@ -1,1 +1,3 @@
-﻿Nothing here yet :(
+﻿
+Importing:
+	When a file is imported, its contents are copied into the active running file.
