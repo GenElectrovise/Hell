@@ -1,6 +1,6 @@
-﻿using Shitfaced.Compilation;
+﻿using Hell.Compilation;
 
-namespace Shitfaced.Interpretation
+namespace Hell.Interpretation
 {
     /**
      * The interpreter prepares to run the program by importing the given file, going through the standard compiling process etc - the normal importing process.

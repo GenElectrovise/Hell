@@ -1,8 +1,8 @@
-﻿using Shitfaced.Interpretation;
+﻿using Hell.Interpretation;
 
-namespace Shitfaced
+namespace Hell
 {
-   public class Shitfaced {
+   public class Hell {
 
         // https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
         internal static RunContext? RunContext { get; set; }

@@ -1,4 +1,4 @@
-﻿namespace Shitfaced.Compilation
+﻿namespace Hell.Compilation
 {
     internal class Compiler
     {
@@ -12,7 +12,7 @@
 
         internal Boolean CompileFromFile(string programPath)
         {
-            Shitfaced.Debug("Compiling " + programPath);
+            Hell.Debug("Compiling " + programPath);
             return true;
         }
     }
