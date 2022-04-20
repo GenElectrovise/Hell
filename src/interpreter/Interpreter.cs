@@ -31,7 +31,7 @@ namespace Hell.Interpretation
         /// <returns>Whether the preparation was successful, and the program can start to execute</returns>
         internal Boolean PrepareToStart()
         {
-            Boolean rootFileCompiles = Compiler.CompileFromFile(RunContext.ProgramPath);
+            Boolean rootFileCompiles = Compiler.CompileFromFile(RunContext.S_ProgramPath);
             _programCounter = Compiler.EntryLine;
 
             if (!rootFileCompiles)

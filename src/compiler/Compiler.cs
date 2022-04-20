@@ -20,6 +20,14 @@
             // Create buffer now so can reference outside of the try/catch
             byte[] buffer = new byte[0];
 
+            // Fail if file does not exist
+            if (!File.Exists(programPath))
+            {
+                Hell.Info("Ah frick! I just can't find that program! Oh well...");
+                Hell.Debug("The file " + programPath + " does not exist. It will be ignored.");
+                return false;
+            }
+
             // Using statement automatically closes and disposes of the resource when the statement ends
             using (FileStream stream = File.OpenRead(programPath)) {
                 try
