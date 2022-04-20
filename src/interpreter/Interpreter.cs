@@ -36,7 +36,7 @@ namespace Hell.Interpretation
 
             if (!rootFileCompiles)
                 return false;
-            return true
+            return true;
         }
 
         int i = 0;

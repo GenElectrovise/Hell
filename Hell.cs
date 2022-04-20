@@ -67,7 +67,7 @@ namespace Hell
         private void SetFromArgs()
         {
             //TODO SetFromArgs
-            ProgramPath = "this/is/a/path.lang";
+            ProgramPath = "example.hell";
             DebugMode = true;
         }
     }
