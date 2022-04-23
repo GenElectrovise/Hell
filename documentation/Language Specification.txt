@@ -1,3 +1,10 @@
 ﻿
 Importing:
 	When a file is imported, its contents are copied into the active running file.
+
+Functions (Paragraphs):
+	A paragraph is declared like so:
+'''
+/t	name with param1 and param2 and param3 and unlimited param4
+'''
+	The entry paragraph is called once-upon-a-time and should be the first paragraph in each story.

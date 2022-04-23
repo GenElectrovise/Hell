@@ -1,0 +1,2 @@
+﻿To start:
+	Searches each line for the phrase "<TAB>once-upon-a-time" / "<TAB>this-is-where-the-program-starts" to be the entrypoint.
