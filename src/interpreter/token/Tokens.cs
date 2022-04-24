@@ -1,4 +1,4 @@
-﻿namespace Hell.src.interpreter
+﻿namespace Hell.src.interpreter.token
 {
     internal class Tokens
     {
