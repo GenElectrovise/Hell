@@ -47,9 +47,9 @@ namespace Hell
             // If prepared successfully, start to run
             if (Interpreter.PrepareToStart())
             {
-                while (Interpreter.HasNextLine())
+                while (Interpreter.GetNextLine())
                 {
-                    Interpreter.ExecuteNextLine();
+                    Interpreter.ExecuteLine();
                 }
             }
             else

@@ -1,4 +1,5 @@
 ﻿using Hell.src.interpreter;
+using Hell.src.interpreter.token;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -51,7 +52,7 @@ namespace Hell.Interpretation
 
         int i = 0;
 
-        internal bool HasNextLine()
+        internal bool GetNextLine()
         {
             //throw new NotImplementedException();
 
@@ -59,10 +60,15 @@ namespace Hell.Interpretation
             return i<20;
         }
 
-        internal void ExecuteNextLine()
+        internal IToken[]? ParseLine(string line)
         {
-            //throw new NotImplementedException();
-            Console.WriteLine(i);
+            Hell.Trace("Parsing " + line);
+            return null;
+        }
+
+        internal void ExecuteLine(IToken[] tokens)
+        {
+            Hell.Trace("Executing " + tokens);
         }
 
         internal void AddNewFile(string path)

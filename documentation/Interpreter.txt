@@ -1,2 +1,16 @@
 ﻿To start:
 	Searches each line for the phrase "<TAB>once-upon-a-time" / "<TAB>this-is-where-the-program-starts" to be the entrypoint.
+
+Tokens:
+	Line:
+		run hello from world
+	Split:
+		[run, hello, from, world]
+	Make Token "run":
+		TokenFactory.make("run")
+	Resolve token:
+		RunToken.resolve([hello, from, world])
+	RunToken:
+		RunToken now contains hello {hello}
+		returns [from, world]
+	Resolve next token...
