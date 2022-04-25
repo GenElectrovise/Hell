@@ -2,7 +2,11 @@
 {
     internal class RunToken : IToken
     {
-        public string FunctionName { get; set; }
+        public string? FunctionName { get; set; }
+
+        internal RunToken()
+        {
+        }
 
         string[] IToken.Resolve(string[] arguments)
         {

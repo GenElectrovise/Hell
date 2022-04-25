@@ -2,7 +2,11 @@
 {
     internal class WithToken : IToken
     {
-        public string ParamName { get; set; }
+        public string? ParamName { get; set; }
+
+        internal WithToken()
+        {
+        }
 
         string[] IToken.Resolve(string[] arguments)
         {

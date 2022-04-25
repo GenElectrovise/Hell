@@ -2,6 +2,10 @@
 {
     internal class NullToken : IToken
     {
+        internal NullToken()
+        {
+        }
+
         string[] IToken.Resolve(string[] arguments)
         {
             return arguments;

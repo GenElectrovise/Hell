@@ -2,7 +2,11 @@
 {
     internal class FromToken : IToken
     {
-        public string Parent { get; set; }
+        public string? Parent { get; set; }
+
+        internal FromToken()
+        {
+        }
 
         string[] IToken.Resolve(string[] arguments)
         {
