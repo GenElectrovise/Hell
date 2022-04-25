@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hell.src.interpreter.token
 {
-    internal interface IToken
+    public interface IToken
     {
         /// <summary>
         /// Takes the remaining items as an array and reduces that array (look up reduce function on an array). E.g. a RUN token will get the first element of the array (the name of the function to run) and store it, then remove that element from the array.
