@@ -8,3 +8,26 @@ Functions (Paragraphs):
 /t	name with param1 and param2 and param3 and unlimited param4
 '''
 	The entry paragraph is called once-upon-a-time and should be the first paragraph in each story.
+
+Tokens:
+	Imperatives:
+		run:
+			run (function) from (object)
+		set:
+			set (object) equal to (function)
+			set (object) equal to the result of (function)
+	Data:
+		(object):
+			Refers to an object. Can be on another object.
+		(function):
+			Refers to a function. Can be on an object.
+	Relationships:
+		from:
+			(function) from (object)
+			(object) from (object)
+		equal to:
+			set (object) equal to (function)
+			set (function) equal to (function)
+			set (object) equal to (object)
+		the result of:
+			run the result of (function)

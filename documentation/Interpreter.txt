@@ -14,3 +14,11 @@ Tokens:
 		RunToken now contains hello {hello}
 		returns [from, world]
 	Resolve next token...
+
+Brackets are just to demonstrate:
+run (hello) from (world)
+run (hello) from (world) from (universe)
+run (the result of (get_hello)) from (world) from (universe)
+run (the result of (get_hello)) from (the result of (get_world)) from (universe)
+
+Resolving RUN creates a RunToken with contents ResultOfToken(ReadParagraphToken(get_hello))
