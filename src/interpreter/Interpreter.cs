@@ -99,10 +99,10 @@ namespace Hell.Interpretation
             {
                 // If the current line starts a paragraph
                 string line = ReadLine(_runningFilePath, i);
-                if (line.StartsWith(Tokens.PARAGRAPH_START))
+                if (line.StartsWith(TokenFactory.PARAGRAPH_START))
                 {
                     int lineNumber = i;
-                    string pureLine = line.Replace(Tokens.ENTRY_PARAGRAPH_NAME, "");
+                    string pureLine = line.Replace(TokenFactory.ENTRY_PARAGRAPH_NAME, "");
 
                     foreach (char c in pureLine.ToCharArray())
                     {
