@@ -16,8 +16,8 @@ namespace Hell.src.interpreter.token
                     return new RunToken();
                 case "from":
                     return new FromToken();
-                default:
-                    return null;
+                case "with":
+                    return new WithToken();
             }
         }
     }
