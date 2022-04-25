@@ -18,6 +18,8 @@ namespace Hell.src.interpreter.token
                     return new FromToken();
                 case "with":
                     return new WithToken();
+                default:
+                    return new NullToken();
             }
         }
     }
