@@ -12,6 +12,7 @@ Functions (Paragraphs):
 Tokens:
 	Imperatives:
 		run:
+			run (function)
 			run (function) from (object)
 		set:
 			set (object) equal to (function)
